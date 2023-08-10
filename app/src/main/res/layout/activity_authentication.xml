@@ -22,6 +22,7 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/champEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
@@ -32,13 +33,16 @@
                 android:layout_height="match_parent">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/champPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Mot de passe"
-                    android:layout_margin="15dp"/>
+                    android:layout_margin="15dp"
+                    android:inputType="textPassword"/>
             </com.google.android.material.textfield.TextInputLayout>
         </com.google.android.material.textfield.TextInputLayout>
         <Button
+            android:id="@+id/btnConnect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Se connecter"
