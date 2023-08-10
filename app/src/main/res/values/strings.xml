@@ -6,4 +6,8 @@
     <string name="food_title_centered">Food</string>
     <string name="fun_title_centered">Fun</string>
     <string name="move_title_centered">Move</string>
+    <string name="home_menu_title">Home</string>
+    <string name="food_menu_title">Food</string>
+    <string name="fun_menu_title">Fun</string>
+    <string name="move_menu_title">Move</string>
 </resources>
