@@ -10,4 +10,6 @@
     <string name="food_menu_title">Food</string>
     <string name="fun_menu_title">Fun</string>
     <string name="move_menu_title">Move</string>
+    <string name="first_text_info_bulle">Hey ! Komenksé ?</string>
+    <string name="second_txt_info_bulle">Allez...Connecte toi</string>
 </resources>

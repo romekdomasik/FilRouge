@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
 
     }
     private fun setupBottomNavigation() {
-        val navController = Navigation.findNavController(this, binding.navHostFragment.id)
+        val navController = findNavController(binding.navHostFragment.id)
         NavigationUI.setupWithNavController(binding.bottomNavigationView, navController)
     }*/
 }
