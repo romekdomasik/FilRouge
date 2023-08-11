@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
+import androidx.core.content.res.ResourcesCompat
 import com.example.filrouge.databinding.ActivityAuthenticationBinding
 
 class AuthenticationActivity : AppCompatActivity() {
@@ -37,6 +38,18 @@ class AuthenticationActivity : AppCompatActivity() {
         val dialog: AlertDialog = builder.create()
         dialog.show()
     }
+
+    private fun toggleEmailValidity(isValid: Boolean) {
+        if(isValid) {
+            binding.layoutEmail.isErrorEnabled = false
+            binding.champEmail.setTextColor(
+                ResourcesCompat.getColor(resources, R.color.text_input_valid_text_color,
+                theme))
+        } else {
+            binding.layoutEmail.error = getString(R.string.email_error_hint)
+            binding.layoutEmail.isErrorEnabled = true
+            binding.champEmail.setTextColor(ResourcesCompat.getColor(resources, R.color.black, theme))
+        } }
 
 
 

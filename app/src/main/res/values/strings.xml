@@ -12,4 +12,5 @@
     <string name="move_menu_title">Move</string>
     <string name="first_text_info_bulle">Hey ! Komenksé ?</string>
     <string name="second_txt_info_bulle">Allez...Connecte toi</string>
+    <string name="email_error_hint">email faux</string>
 </resources>
